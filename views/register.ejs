@@ -17,8 +17,8 @@
             <h1 class="text-center mb-4">Register Form</h1>
             <form action="/register" method="POST">
               <div class="mb-3">
-                <label for="username" class="form-label">Username:</label>
-                <input type="text" id="username" name="username" class="form-control" required/>
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required/>
               </div>
   
               <div class="mb-3">
@@ -46,6 +46,11 @@
                 <input type="date" id="dob" name="dob" class="form-control" required/>
               </div>
   
+              <div class="mb-3">
+                <label for="mobileNumber" class="form-label">Mobile Number:</label>
+                <input type="text" id="mobileNumber" name="mobileNumber" class="form-control" required/>
+              </div>
+  
               <button type="submit" class="btn btn-primary btn-block">Register</button>
             </form>
             <p class="text-center mt-3">
@@ -54,7 +59,7 @@
           </div>
         </div>
       </div>
-
+  
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
